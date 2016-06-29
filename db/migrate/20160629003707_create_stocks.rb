@@ -3,7 +3,7 @@ class CreateStocks < ActiveRecord::Migration
     create_table :stocks do |t|
       t.string :size
       t.string :integrer
-      t.string :serial nul: false
+      t.string :serial, null: false
       t.string :string
       t.string :description
       t.string :text
@@ -11,6 +11,6 @@ class CreateStocks < ActiveRecord::Migration
       t.timestamps null: false
     end
 
-     add_index :serial, unique:true
+     add_index :serial, unique: true
   end
 end
