@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  size: MyString
+  integrer: MyString
+  serial: MyString
+  string: MyString
+  description: MyString
+  text: MyString
+
+two:
+  size: MyString
+  integrer: MyString
+  serial: MyString
+  string: MyString
+  description: MyString
+  text: MyString
